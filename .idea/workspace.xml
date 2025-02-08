@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c36ef36-3f33-4313-9412-eb85bb54ed77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/list/coding_pblm/pairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/coding_pblm/rotate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/coding_pblm/true_duplicates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/dict_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/dict_comprehension_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/dict_methods_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/dict_traversing_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/operations_builtins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BITS08SATHYA"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BITS08SATHYA&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BITS08SATHYA/python_dsa.git",
-    "accountId": "5d26b42a-f898-4cec-9cfa-c7f2663d3c4d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BITS08SATHYA/python_dsa.git&quot;,
+    &quot;accountId&quot;: &quot;5d26b42a-f898-4cec-9cfa-c7f2663d3c4d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -57,14 +60,19 @@
     "Python.Pairs_TwoSum_02.executor": "Run",
     "Python.arrayPractice.executor": "Run",
     "Python.diagonal_sum_matrix.executor": "Run",
+    "Python.dict_01.executor": "Run",
+    "Python.dict_comprehension_04.executor": "Run",
+    "Python.dict_methods_04.executor": "Run",
+    "Python.dict_traversing_02.executor": "Run",
     "Python.first_second_07.executor": "Debug",
     "Python.list.executor": "Run",
     "Python.listComphrenesion.executor": "Run",
     "Python.listOperations.executor": "Run",
     "Python.max_product_04.executor": "Run",
     "Python.middle_list_05.executor": "Run",
+    "Python.operations_builtins.executor": "Run",
     "Python.pairs.executor": "Run",
-    "Python.rotate.executor": "Debug",
+    "Python.rotate.executor": "Run",
     "Python.true_duplicates.executor": "Run",
     "Python.twoDimArray.executor": "Run",
     "Python.youtube_delete.executor": "Run",
@@ -75,12 +83,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.rotate">
-    <configuration name="diagonal_sum_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dict_comprehension_04">
+    <configuration name="dict_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,12 +97,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list/coding_pblm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/coding_pblm/diagonal_sum_matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_second_07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dict_comprehension_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list/coding_pblm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/coding_pblm/first_second_07.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_comprehension_04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pairs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dict_methods_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,12 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list/coding_pblm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/coding_pblm/pairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_methods_03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rotate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dict_traversing_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,12 +166,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list/coding_pblm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/coding_pblm/rotate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_traversing_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="true_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="operations_builtins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,12 +189,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list/coding_pblm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/coding_pblm/true_duplicates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/operations_builtins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rotate" />
-        <item itemvalue="Python.true_duplicates" />
-        <item itemvalue="Python.pairs" />
-        <item itemvalue="Python.first_second_07" />
-        <item itemvalue="Python.diagonal_sum_matrix" />
+        <item itemvalue="Python.dict_comprehension_04" />
+        <item itemvalue="Python.operations_builtins" />
+        <item itemvalue="Python.dict_methods_03" />
+        <item itemvalue="Python.dict_traversing_02" />
+        <item itemvalue="Python.dict_01" />
       </list>
     </recent_temporary>
   </component>
@@ -224,29 +232,21 @@
       <workItem from="1738463548543" duration="10565000" />
       <workItem from="1738557887007" duration="1083000" />
       <workItem from="1738614680881" duration="3069000" />
-      <workItem from="1738708642366" duration="17413000" />
+      <workItem from="1738708642366" duration="19084000" />
+      <workItem from="1739052483980" duration="3924000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/list/coding_pblm/rotate.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Complete_DSA$max_product_04.coverage" NAME="max_product_04 Coverage Results" MODIFIED="1738808520612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$diagonal_sum_matrix.coverage" NAME="diagonal_sum_matrix Coverage Results" MODIFIED="1738809764996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Missing_Number_01.coverage" NAME="Missing_Number_01 Coverage Results" MODIFIED="1738729046842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$dict_comprehension_04.coverage" NAME="dict_comprehension_04 Coverage Results" MODIFIED="1739056536353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$listOperations.coverage" NAME="listOperations Coverage Results" MODIFIED="1738615534690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$dict_01.coverage" NAME="dict_01 Coverage Results" MODIFIED="1739054389916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Arrays.coverage" NAME="Arrays Coverage Results" MODIFIED="1738470138880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/Complete_DSA$listComphrenesion.coverage" NAME="listComphrenesion Coverage Results" MODIFIED="1738616472922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
     <SUITE FILE_PATH="coverage/Complete_DSA$arrayPractice.coverage" NAME="arrayPractice Coverage Results" MODIFIED="1738472706210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
@@ -254,8 +254,11 @@
     <SUITE FILE_PATH="coverage/Complete_DSA$middle_list_05.coverage" NAME="middle_list_05 Coverage Results" MODIFIED="1738808759477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$twoDimArray.coverage" NAME="twoDimArray Coverage Results" MODIFIED="1738473930435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/Complete_DSA$first_second_07.coverage" NAME="first_second_07 Coverage Results" MODIFIED="1738810259063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$dict_traversing_02.coverage" NAME="dict_traversing_02 Coverage Results" MODIFIED="1739055025289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$operations_builtins.coverage" NAME="operations_builtins Coverage Results" MODIFIED="1739056512817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$dict_methods_04.coverage" NAME="dict_methods_04 Coverage Results" MODIFIED="1739055893797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$true_duplicates.coverage" NAME="true_duplicates Coverage Results" MODIFIED="1738982784599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
-    <SUITE FILE_PATH="coverage/Complete_DSA$rotate.coverage" NAME="rotate Coverage Results" MODIFIED="1738985552949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$rotate.coverage" NAME="rotate Coverage Results" MODIFIED="1738986055766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$youtube_delete.coverage" NAME="youtube_delete Coverage Results" MODIFIED="1738512578116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youtube_deletetion" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Array.coverage" NAME="Array Coverage Results" MODIFIED="1738709948851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$list.coverage" NAME="list Coverage Results" MODIFIED="1738615492857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
