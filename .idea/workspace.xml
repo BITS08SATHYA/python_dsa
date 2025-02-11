@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c36ef36-3f33-4313-9412-eb85bb54ed77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dict_03/merge_dicts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/dict_conditional_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/dict_highest_val.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/reverse_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_03/same_frequency.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +60,8 @@
     "Python.diagonal_sum_matrix.executor": "Run",
     "Python.dict_01.executor": "Run",
     "Python.dict_comprehension_04.executor": "Run",
+    "Python.dict_conditional_filter.executor": "Run",
+    "Python.dict_highest_val.executor": "Run",
     "Python.dict_methods_04.executor": "Run",
     "Python.dict_traversing_02.executor": "Run",
     "Python.first_second_07.executor": "Debug",
@@ -68,7 +73,9 @@
     "Python.middle_list_05.executor": "Run",
     "Python.operations_builtins.executor": "Run",
     "Python.pairs.executor": "Run",
+    "Python.reverse_dict.executor": "Run",
     "Python.rotate.executor": "Run",
+    "Python.same_frequency.executor": "Run",
     "Python.true_duplicates.executor": "Run",
     "Python.twoDimArray.executor": "Run",
     "Python.youtube_delete.executor": "Run",
@@ -83,8 +90,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.merge_dicts">
-    <configuration name="dict_comprehension_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.same_frequency">
+    <configuration name="dict_conditional_filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +105,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_comprehension_04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_conditional_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dict_methods_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dict_highest_val" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,30 +128,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_methods_03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dict_traversing_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Complete_DSA" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_traversing_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/dict_highest_val.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="operations_builtins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reverse_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +174,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/operations_builtins.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/reverse_dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="same_frequency" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Complete_DSA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dict_03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict_03/same_frequency.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.same_frequency" />
+        <item itemvalue="Python.dict_conditional_filter" />
+        <item itemvalue="Python.reverse_dict" />
+        <item itemvalue="Python.dict_highest_val" />
         <item itemvalue="Python.merge_dicts" />
-        <item itemvalue="Python.dict_comprehension_04" />
-        <item itemvalue="Python.operations_builtins" />
-        <item itemvalue="Python.dict_methods_03" />
-        <item itemvalue="Python.dict_traversing_02" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +238,7 @@
       <workItem from="1738708642366" duration="19084000" />
       <workItem from="1739052483980" duration="4018000" />
       <workItem from="1739077345481" duration="1466000" />
-      <workItem from="1739244332451" duration="2436000" />
+      <workItem from="1739244332451" duration="4997000" />
     </task>
     <servers />
   </component>
@@ -241,11 +248,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Complete_DSA$max_product_04.coverage" NAME="max_product_04 Coverage Results" MODIFIED="1738808520612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$diagonal_sum_matrix.coverage" NAME="diagonal_sum_matrix Coverage Results" MODIFIED="1738809764996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$same_frequency.coverage" NAME="same_frequency Coverage Results" MODIFIED="1739249326050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Missing_Number_01.coverage" NAME="Missing_Number_01 Coverage Results" MODIFIED="1738729046842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$dict_comprehension_04.coverage" NAME="dict_comprehension_04 Coverage Results" MODIFIED="1739244386447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$listOperations.coverage" NAME="listOperations Coverage Results" MODIFIED="1738615534690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
     <SUITE FILE_PATH="coverage/Complete_DSA$dict_01.coverage" NAME="dict_01 Coverage Results" MODIFIED="1739054389916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
-    <SUITE FILE_PATH="coverage/Complete_DSA$merge_dicts.coverage" NAME="merge_dicts Coverage Results" MODIFIED="1739246759411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$merge_dicts.coverage" NAME="merge_dicts Coverage Results" MODIFIED="1739247433483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$middle_list_05.coverage" NAME="middle_list_05 Coverage Results" MODIFIED="1738808759477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$first_second_07.coverage" NAME="first_second_07 Coverage Results" MODIFIED="1738810259063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
     <SUITE FILE_PATH="coverage/Complete_DSA$operations_builtins.coverage" NAME="operations_builtins Coverage Results" MODIFIED="1739056512817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
@@ -254,6 +262,7 @@
     <SUITE FILE_PATH="coverage/Complete_DSA$youtube_delete.coverage" NAME="youtube_delete Coverage Results" MODIFIED="1738512578116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/youtube_deletetion" />
     <SUITE FILE_PATH="coverage/Complete_DSA$list.coverage" NAME="list Coverage Results" MODIFIED="1738615492857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
     <SUITE FILE_PATH="coverage/Complete_DSA$pairs.coverage" NAME="pairs Coverage Results" MODIFIED="1738981398776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$dict_conditional_filter.coverage" NAME="dict_conditional_filter Coverage Results" MODIFIED="1739249145004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Arrays.coverage" NAME="Arrays Coverage Results" MODIFIED="1738470138880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/Complete_DSA$listComphrenesion.coverage" NAME="listComphrenesion Coverage Results" MODIFIED="1738616472922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
     <SUITE FILE_PATH="coverage/Complete_DSA$arrayPractice.coverage" NAME="arrayPractice Coverage Results" MODIFIED="1738472706210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
@@ -261,7 +270,9 @@
     <SUITE FILE_PATH="coverage/Complete_DSA$twoDimArray.coverage" NAME="twoDimArray Coverage Results" MODIFIED="1738473930435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/Complete_DSA$dict_traversing_02.coverage" NAME="dict_traversing_02 Coverage Results" MODIFIED="1739055025289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$true_duplicates.coverage" NAME="true_duplicates Coverage Results" MODIFIED="1738982784599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$dict_highest_val.coverage" NAME="dict_highest_val Coverage Results" MODIFIED="1739248076341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Array.coverage" NAME="Array Coverage Results" MODIFIED="1738709948851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$reverse_dict.coverage" NAME="reverse_dict Coverage Results" MODIFIED="1739248905263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Finding_A_Num_03.coverage" NAME="Finding_A_Num_03 Coverage Results" MODIFIED="1738807375256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list/coding_pblm" />
   </component>
 </project>
