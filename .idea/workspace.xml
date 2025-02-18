@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c36ef36-3f33-4313-9412-eb85bb54ed77" name="Changes" comment="Tuple module theory completed">
-      <change afterPath="$PROJECT_DIR$/linkedList/libs/LinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/libs/Node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/libs/Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/libs/Node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,52 +46,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Array.executor": "Run",
-    "Python.Arrays.executor": "Run",
-    "Python.Finding_A_Num_03.executor": "Run",
-    "Python.Missing_Number_01.executor": "Run",
-    "Python.Node.executor": "Run",
-    "Python.Pairs_TwoSum_02.executor": "Run",
-    "Python.arrayPractice.executor": "Run",
-    "Python.common_tuple_elemts.executor": "Run",
-    "Python.concetenate_strings.executor": "Run",
-    "Python.diagonal_sum.executor": "Run",
-    "Python.diagonal_sum_matrix.executor": "Run",
-    "Python.dict_01.executor": "Run",
-    "Python.dict_comprehension_04.executor": "Run",
-    "Python.dict_conditional_filter.executor": "Run",
-    "Python.dict_highest_val.executor": "Run",
-    "Python.dict_methods_04.executor": "Run",
-    "Python.dict_traversing_02.executor": "Run",
-    "Python.first_second_07.executor": "Debug",
-    "Python.insert_value_front.executor": "Run",
-    "Python.list.executor": "Run",
-    "Python.listComphrenesion.executor": "Run",
-    "Python.listOperations.executor": "Run",
-    "Python.max_product_04.executor": "Run",
-    "Python.merge_dicts.executor": "Run",
-    "Python.middle_list_05.executor": "Run",
-    "Python.operations_builtins.executor": "Run",
-    "Python.pairs.executor": "Run",
-    "Python.reverse_dict.executor": "Run",
-    "Python.rotate.executor": "Run",
-    "Python.same_frequency.executor": "Run",
-    "Python.true_duplicates.executor": "Run",
-    "Python.twoDimArray.executor": "Run",
-    "Python.youtube_delete.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Finding_A_Num_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Missing_Number_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Node.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pairs_TwoSum_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arrayPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.common_tuple_elemts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.concetenate_strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagonal_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagonal_sum_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_comprehension_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_conditional_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_highest_val.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_methods_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_traversing_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_second_07.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.insert_value_front.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listComphrenesion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_product_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_dicts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.middle_list_05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operations_builtins.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reverse_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rotate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.same_frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.true_duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.twoDimArray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.youtube_delete.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Node">
     <configuration name="Node" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
@@ -242,7 +241,8 @@
       <workItem from="1739052483980" duration="4018000" />
       <workItem from="1739077345481" duration="1466000" />
       <workItem from="1739244332451" duration="4997000" />
-      <workItem from="1739761237610" duration="4203000" />
+      <workItem from="1739761237610" duration="5288000" />
+      <workItem from="1739854189149" duration="239000" />
     </task>
     <servers />
   </component>
@@ -276,7 +276,7 @@
     <SUITE FILE_PATH="coverage/Complete_DSA$diagonal_sum.coverage" NAME="diagonal_sum Coverage Results" MODIFIED="1739576950444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tuples_04/coding" />
     <SUITE FILE_PATH="coverage/Complete_DSA$concetenate_strings.coverage" NAME="concetenate_strings Coverage Results" MODIFIED="1739576706952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tuples_04/coding" />
     <SUITE FILE_PATH="coverage/Complete_DSA$tuples_01.coverage" NAME="tuples_01 Coverage Results" MODIFIED="1739334992293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tuples_04" />
-    <SUITE FILE_PATH="coverage/Complete_DSA$Node.coverage" NAME="Node Coverage Results" MODIFIED="1739767926942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedList/libs" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$Node.coverage" NAME="Node Coverage Results" MODIFIED="1739854414371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedList/libs" />
     <SUITE FILE_PATH="coverage/Complete_DSA$dict_conditional_filter.coverage" NAME="dict_conditional_filter Coverage Results" MODIFIED="1739249145004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Arrays.coverage" NAME="Arrays Coverage Results" MODIFIED="1738470138880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/Complete_DSA$listComphrenesion.coverage" NAME="listComphrenesion Coverage Results" MODIFIED="1738616472922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
