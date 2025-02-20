@@ -243,7 +243,7 @@
       <workItem from="1739244332451" duration="4997000" />
       <workItem from="1739761237610" duration="5288000" />
       <workItem from="1739854189149" duration="3244000" />
-      <workItem from="1739937368369" duration="2892000" />
+      <workItem from="1739937368369" duration="9470000" />
     </task>
     <servers />
   </component>
@@ -277,7 +277,7 @@
     <SUITE FILE_PATH="coverage/Complete_DSA$diagonal_sum.coverage" NAME="diagonal_sum Coverage Results" MODIFIED="1739576950444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tuples_04/coding" />
     <SUITE FILE_PATH="coverage/Complete_DSA$concetenate_strings.coverage" NAME="concetenate_strings Coverage Results" MODIFIED="1739576706952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tuples_04/coding" />
     <SUITE FILE_PATH="coverage/Complete_DSA$tuples_01.coverage" NAME="tuples_01 Coverage Results" MODIFIED="1739334992293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tuples_04" />
-    <SUITE FILE_PATH="coverage/Complete_DSA$Node.coverage" NAME="Node Coverage Results" MODIFIED="1739940974866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedList/libs" />
+    <SUITE FILE_PATH="coverage/Complete_DSA$Node.coverage" NAME="Node Coverage Results" MODIFIED="1739983001193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkedList/libs" />
     <SUITE FILE_PATH="coverage/Complete_DSA$dict_conditional_filter.coverage" NAME="dict_conditional_filter Coverage Results" MODIFIED="1739249145004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dict_03" />
     <SUITE FILE_PATH="coverage/Complete_DSA$Arrays.coverage" NAME="Arrays Coverage Results" MODIFIED="1738470138880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
     <SUITE FILE_PATH="coverage/Complete_DSA$listComphrenesion.coverage" NAME="listComphrenesion Coverage Results" MODIFIED="1738616472922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />

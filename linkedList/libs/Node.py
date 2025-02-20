@@ -92,7 +92,57 @@ class LinkedList:
             current = self.head
             for _ in range(index):
                 current = current.next
-            return current.value
+            return current
+
+    def set_value(self, index, value):
+        temp = self.get(index)
+        if temp:
+            temp.value = value
+            return True
+        return False
+
+    def pop_first(self):
+        if self.length == 0:
+            return None
+        popped_node = self.head
+        if self.length == 1:
+            self.head = self.tail = None
+        else:
+            self.head = self.head.next
+            popped_node.next = None
+        self.length -= 1
+        return popped_node
+
+    def pop(self):
+        if self.length == 0:
+            return None
+        popped_node = self.tail
+        if self.length == 1:
+            self.head = self.tail = None
+        else:
+            temp = self.head
+            while temp.next is not self.tail:
+                temp = temp.next
+            self.tail = temp
+            temp.next = None
+        self.length -= 1
+        return popped_node
+
+    def remove(self, index):
+        if index >= self.length or index < -1:
+            return None
+        if index == 0:
+            return self.pop_first()
+        prev_node = self.get(index-1)
+        popped_node = prev_node.next
+        prev_node.next = popped_node.next
+        popped_node.next = None
+        self.length -= 1
+        return popped_node.value
+
+    def remove_all(self):
+        self.head = self.tail = None
+        self.length = 0
 
 
 
@@ -102,8 +152,13 @@ new_linked_list.prepend(4)
 new_linked_list.append(2)
 new_linked_list.append(3)
 new_linked_list.insert(2,5)
+# new_linked_list.pop()
 # print(new_linked_list.head.value)
 # print(new_linked_list.__str__())
 new_linked_list.traverse()
+
+# print(new_linked_list.remove(3))
+new_linked_list.remove_all()
+new_linked_list.traverse()
 # print(new_linked_list.search(5))
-print(new_linked_list.get(2))
+# print(new_linked_list.get(2))
