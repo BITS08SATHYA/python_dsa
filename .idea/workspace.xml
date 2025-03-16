@@ -46,53 +46,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Array.executor": "Run",
-    "Python.Arrays.executor": "Run",
-    "Python.Finding_A_Num_03.executor": "Run",
-    "Python.Missing_Number_01.executor": "Run",
-    "Python.Node.executor": "Run",
-    "Python.Pairs_TwoSum_02.executor": "Run",
-    "Python.arrayPractice.executor": "Run",
-    "Python.common_tuple_elemts.executor": "Run",
-    "Python.concetenate_strings.executor": "Run",
-    "Python.diagonal_sum.executor": "Run",
-    "Python.diagonal_sum_matrix.executor": "Run",
-    "Python.dict_01.executor": "Run",
-    "Python.dict_comprehension_04.executor": "Run",
-    "Python.dict_conditional_filter.executor": "Run",
-    "Python.dict_highest_val.executor": "Run",
-    "Python.dict_methods_04.executor": "Run",
-    "Python.dict_traversing_02.executor": "Run",
-    "Python.first_second_07.executor": "Debug",
-    "Python.insert_value_front.executor": "Run",
-    "Python.list.executor": "Run",
-    "Python.listComphrenesion.executor": "Run",
-    "Python.listOperations.executor": "Run",
-    "Python.max_product_04.executor": "Run",
-    "Python.merge_dicts.executor": "Run",
-    "Python.middle_list_05.executor": "Run",
-    "Python.operations_builtins.executor": "Run",
-    "Python.pairs.executor": "Run",
-    "Python.reverse_dict.executor": "Run",
-    "Python.rotate.executor": "Run",
-    "Python.same_frequency.executor": "Run",
-    "Python.true_duplicates.executor": "Run",
-    "Python.twoDimArray.executor": "Run",
-    "Python.youtube_delete.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Finding_A_Num_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Missing_Number_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Node.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pairs_TwoSum_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arrayPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.common_tuple_elemts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.concetenate_strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagonal_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagonal_sum_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_comprehension_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_conditional_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_highest_val.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_methods_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict_traversing_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first_second_07.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.insert_value_front.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listComphrenesion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.max_product_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_dicts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.middle_list_05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operations_builtins.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reverse_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rotate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.same_frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.true_duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.twoDimArray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.youtube_delete.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Node">
     <configuration name="Node" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Complete_DSA" />
@@ -247,7 +247,8 @@
       <workItem from="1739937368369" duration="9470000" />
       <workItem from="1741062612284" duration="5324000" />
       <workItem from="1741148578874" duration="2000" />
-      <workItem from="1741749674595" duration="366000" />
+      <workItem from="1741749674595" duration="1136000" />
+      <workItem from="1742095913767" duration="897000" />
     </task>
     <servers />
   </component>

@@ -30,3 +30,31 @@ class LinkedList:
             self.tail.next = new_node
             self.tail = new_node
         self.length += 1
+
+    def remove(self, index):
+        if index < 0 or index >= self.length:
+            return None
+        elif index == 0:
+            popped_node = self.head
+            if self.head == 1:
+                self.head = None
+                self.tail = None
+            else:
+                self.head = self.head.next
+            popped_node.next = None
+            self.length -= 1
+            return popped_node
+        else:
+            temp = self.head
+            for _ in range(index - 1):
+                temp = temp.next
+
+            popped_node = temp.next
+
+            if popped_node.next is None:
+                self.tail = temp
+
+            temp.next = temp.next.next
+            popped_node.next = None
+            self.length -= 1
+            return popped_node
