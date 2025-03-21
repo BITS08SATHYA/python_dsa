@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c36ef36-3f33-4313-9412-eb85bb54ed77" name="Changes" comment="Tuple module theory completed">
-      <change afterPath="$PROJECT_DIR$/linkedList/coding_ex/Merged_2_LL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList/coding_ex/remove_duplicates.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +249,7 @@
       <workItem from="1741749674595" duration="1136000" />
       <workItem from="1742095913767" duration="1191000" />
       <workItem from="1742097117746" duration="1257000" />
-      <workItem from="1742527894548" duration="54000" />
+      <workItem from="1742527894548" duration="767000" />
     </task>
     <servers />
   </component>
