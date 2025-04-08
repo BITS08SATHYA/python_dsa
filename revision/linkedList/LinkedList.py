@@ -57,6 +57,17 @@ class LinkedList:
         self.length += 1
         return True
 
+    def search(self, target):
+        curr = self.head
+        index = 0
+        while curr is not None:
+            if curr.value == target:
+                # return True
+                return index
+            curr = curr.next
+            index += 1
+        return -1
+
     def traverse(self):
         curr = self.head
         while curr is not None:
@@ -83,5 +94,6 @@ new_linked_list.prepend(3)
 new_linked_list.insert(2, 5)
 # print(new_linked_list.__str__())
 new_linked_list.traverse()
+print(new_linked_list.search(1))
 # print(new_linked_list.head.value)
 # print(new_linked_list.head.next.value)
