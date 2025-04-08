@@ -83,10 +83,11 @@ class LinkedList:
             return self.tail.value
         if index < 0 or index >= self.length:
             return None
-        curr = self.head
-        for _ in range(index):
-            curr = curr.next
-        curr.value = value
+        temp = self.get(index)
+        if temp:
+            temp.value = value
+            return True
+        return False
 
     def traverse(self):
         curr = self.head
