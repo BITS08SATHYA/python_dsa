@@ -78,6 +78,16 @@ class LinkedList:
             curr = curr.next
         return curr
 
+    def set(self, index, value):
+        if index == -1:
+            return self.tail.value
+        if index < 0 or index >= self.length:
+            return None
+        curr = self.head
+        for _ in range(index):
+            curr = curr.next
+        curr.value = value
+
     def traverse(self):
         curr = self.head
         while curr is not None:
