@@ -89,6 +89,19 @@ class LinkedList:
             return True
         return False
 
+    def pop_first(self):
+        if self.length == 0:
+            return None
+        popped_node = self.head
+        if self.length == 1:
+            self.head = None
+            self.tail = None
+        else:
+            self.head = self.head.next
+            popped_node.next = None
+        self.length -= 1
+        return popped_node.value
+
     def traverse(self):
         curr = self.head
         while curr is not None:
@@ -116,6 +129,8 @@ new_linked_list.insert(2, 5)
 print(new_linked_list.__str__())
 # new_linked_list.traverse()
 # print(new_linked_list.search(1))
-print(new_linked_list.get(3))
+# print(new_linked_list.get(3))
+print(new_linked_list.pop_first())
+print(new_linked_list.__str__())
 # print(new_linked_list.head.value)
 # print(new_linked_list.head.next.value)
