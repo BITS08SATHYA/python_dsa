@@ -135,6 +135,11 @@ class LinkedList:
             print(curr.value)
             curr = curr.next
 
+    def delete_all(self):
+        self.head = None
+        self.tail = None
+        self.length = 0
+
     def __str__(self):
         temp_node = self.head
         result = ''
