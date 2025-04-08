@@ -68,6 +68,16 @@ class LinkedList:
             index += 1
         return -1
 
+    def get(self, index):
+        if index == -1:
+            return self.tail.value
+        if index < 0 or index >= self.length:
+            return None
+        curr = self.head
+        for _ in range(index):
+            curr = curr.next
+        return curr
+
     def traverse(self):
         curr = self.head
         while curr is not None:
@@ -92,8 +102,9 @@ new_linked_list.append(1)
 new_linked_list.append(2)
 new_linked_list.prepend(3)
 new_linked_list.insert(2, 5)
-# print(new_linked_list.__str__())
-new_linked_list.traverse()
-print(new_linked_list.search(1))
+print(new_linked_list.__str__())
+# new_linked_list.traverse()
+# print(new_linked_list.search(1))
+print(new_linked_list.get(3))
 # print(new_linked_list.head.value)
 # print(new_linked_list.head.next.value)
