@@ -102,6 +102,19 @@ class LinkedList:
         self.length -= 1
         return popped_node.value
 
+    def pop_last(self):
+        popped_node = self.tail
+        if self.length == 1:
+            self.head = self.tail = None
+        else:
+            temp = self.head
+            while temp.next is not self.tail:
+                temp = temp.next
+            self.tail = temp
+            temp.next = None
+        self.length -= 1
+        return popped_node.value
+
     def traverse(self):
         curr = self.head
         while curr is not None:
