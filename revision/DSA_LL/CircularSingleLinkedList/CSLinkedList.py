@@ -85,6 +85,16 @@ class CSLinkedList:
             if current == self.head:
                 break
 
+    def search(self, target):
+        current = self.head
+        while current is not None:
+            if current.value == target:
+                return True
+            current = current.next
+            if current == self.head:
+                break
+            return False
+
 
 
 
