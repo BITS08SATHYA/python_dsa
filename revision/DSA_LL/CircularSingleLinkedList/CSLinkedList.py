@@ -77,6 +77,14 @@ class CSLinkedList:
             temp_node.next = new_node
         self.length += 1
 
+    def traverse(self):
+        current = self.head
+        while current is not None:
+            print(current.value)
+            current = current.next
+            if current == self.head:
+                break
+
 
 
 
