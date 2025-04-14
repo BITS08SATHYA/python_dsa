@@ -3,6 +3,9 @@ class Node:
         self.value = value
         self.next = None
 
+    def __str__(self):
+        return str(self.value)
+
 
 class CSLinkedList:
     # def __init__(self, value):
@@ -94,6 +97,24 @@ class CSLinkedList:
             if current == self.head:
                 break
             return False
+
+    def get(self, index):
+        if index == -1:
+            return self.tail
+        elif index < -1 or index >= self.length:
+            return None
+        current = self.head
+        for _ in range(index):
+            current = current.next
+        return current
+
+    def set_value(self, index ,value):
+        temp = self.get(index)
+        if temp:
+            temp.value = value
+            return True
+        return False
+
 
 
 
