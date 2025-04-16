@@ -59,11 +59,25 @@ class DoubleLinkedList:
 
     def search(self, target):
         current_node = self.head
+        index = 0
         while current_node:
             if current_node.value == target:
-                return True
+                return index
             current_node = current_node.next
-        return False
+            index += 1
+        return -1
+
+    def get(self, index):
+        if index < self.length // 2:
+            current_node = self.head
+            for _ in range(index):
+                current_node = current_node.next
+        else:
+            current_node = self.tail
+            for _ in range(self.length - 1, index , -1):
+                current_node = current_node.prev
+        return current_node
+
 
 newDLL = DoubleLinkedList()
 newDLL.append(1)
@@ -71,6 +85,7 @@ newDLL.append(2)
 newDLL.prepend(3)
 newDLL.reverse_traversal()
 print(newDLL.search(1))
+print(newDLL.get(0))
 # print(newDLL.head.value)
 # print(newDLL.head.next.value)
 # print(newDLL.__str__())
