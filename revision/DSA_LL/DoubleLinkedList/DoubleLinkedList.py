@@ -24,10 +24,19 @@ class DoubleLinkedList:
             self.tail = new_node
         self.length += 1
 
-
+    def __str__(self):
+        temp_node = self.head
+        result = ''
+        while temp_node is not None:
+            result += str(temp_node.value)
+            if temp_node.next is not None:
+                result += ' <-> '
+            temp_node = temp_node.next
+        return result
 
 newDLL = DoubleLinkedList()
 newDLL.append(1)
 newDLL.append(2)
-print(newDLL.head.value)
-print(newDLL.head.next.value)
+# print(newDLL.head.value)
+# print(newDLL.head.next.value)
+print(newDLL.__str__())
