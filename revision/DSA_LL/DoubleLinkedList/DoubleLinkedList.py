@@ -51,11 +51,17 @@ class DoubleLinkedList:
             print(current_node.value)
             current_node = current_node.next
 
+    def reverse_traversal(self):
+        current_node = self.tail
+        while current_node:
+            print(current_node.value)
+            current_node = current_node.prev
+
 newDLL = DoubleLinkedList()
 newDLL.append(1)
 newDLL.append(2)
 newDLL.prepend(3)
-newDLL.traverse()
+newDLL.reverse_traversal()
 # print(newDLL.head.value)
 # print(newDLL.head.next.value)
 # print(newDLL.__str__())
