@@ -103,6 +103,18 @@ class DoubleLinkedList:
         temp_node.next = new_node
         self.length += 1
 
+    def pop_first(self):
+        popped_node = self.head
+        if self.length == 1:
+            self.head = self.tail = None
+            return popped_node
+        else:
+            self.head = self.head.next
+            self.head.prev = None
+            popped_node.next = None
+            self.length -= 1
+        return popped_node.value
+
 
 
 newDLL = DoubleLinkedList()
@@ -113,6 +125,11 @@ newDLL.reverse_traversal()
 print(newDLL.search(1))
 newDLL.set_value(0, 6)
 newDLL.insert(3,99)
+
+print(newDLL.pop_first())
+
+
+
 print(newDLL.__str__())
 # print(newDLL.get(0))
 # print(newDLL.head.value)
