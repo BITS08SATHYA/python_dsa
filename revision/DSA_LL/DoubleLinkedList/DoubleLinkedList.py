@@ -78,6 +78,13 @@ class DoubleLinkedList:
                 current_node = current_node.prev
         return current_node
 
+    def set_value(self, index, value):
+        node = self.get(index)
+        if node:
+            node.value = value
+            return True
+        return False
+
 
 newDLL = DoubleLinkedList()
 newDLL.append(1)
@@ -85,6 +92,7 @@ newDLL.append(2)
 newDLL.prepend(3)
 newDLL.reverse_traversal()
 print(newDLL.search(1))
+newDLL.set_value(0, 6)
 print(newDLL.get(0))
 # print(newDLL.head.value)
 # print(newDLL.head.next.value)
