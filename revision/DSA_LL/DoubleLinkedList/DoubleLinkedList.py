@@ -128,15 +128,17 @@ class DoubleLinkedList:
         return popped_node.value
 
     def remove(self,index):
+        if index < 0 or index >= self.length:
+            return None
+        if index == 0:
+            return self.pop_first()
+        if index == self.length-1:
+            return self.pop_last()
         popped_node = self.get(index)
-        if self.length == 1:
-            self.head = self.tail = 0
-            self.length = 0
-        else:
-            popped_node.prev.next = popped_node.next
-            popped_node.next.prev = popped_node.prev
-            popped_node.prev = popped_node.next = 0
-            self.length -= 1
+        popped_node.prev.next = popped_node.next
+        popped_node.next.prev = popped_node.prev
+        popped_node.prev = popped_node.next = 0
+        self.length -= 1
         return popped_node
 
 
