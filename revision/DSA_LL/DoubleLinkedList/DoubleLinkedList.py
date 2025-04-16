@@ -127,6 +127,18 @@ class DoubleLinkedList:
         self.length -= 1
         return popped_node.value
 
+    def remove(self,index):
+        popped_node = self.get(index)
+        if self.length == 1:
+            self.head = self.tail = 0
+            self.length = 0
+        else:
+            popped_node.prev.next = popped_node.next
+            popped_node.next.prev = popped_node.prev
+            popped_node.prev = popped_node.next = 0
+            self.length -= 1
+        return popped_node
+
 
 
 newDLL = DoubleLinkedList()
@@ -139,8 +151,8 @@ newDLL.set_value(0, 6)
 newDLL.insert(3,99)
 
 # print(newDLL.pop_first())
-print(newDLL.pop_last())
-
+# print(newDLL.pop_last())
+print(newDLL.remove(1))
 
 
 print(newDLL.__str__())
