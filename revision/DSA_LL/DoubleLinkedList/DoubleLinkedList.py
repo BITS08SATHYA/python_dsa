@@ -85,6 +85,25 @@ class DoubleLinkedList:
             return True
         return False
 
+    def insert(self, index ,value):
+        if index < 0 or index > self.length:
+            print("Index out of bounds..")
+            return
+        new_node = Node(value)
+        if index == 0:
+            self.prepend(value)
+            return
+        elif index == self.length:
+            self.append(value)
+            return
+        temp_node = self.get(index - 1)
+        new_node.next = temp_node.next
+        new_node.prev = temp_node
+        temp_node.next.prev = new_node
+        temp_node.next = new_node
+        self.length += 1
+
+
 
 newDLL = DoubleLinkedList()
 newDLL.append(1)
@@ -93,7 +112,9 @@ newDLL.prepend(3)
 newDLL.reverse_traversal()
 print(newDLL.search(1))
 newDLL.set_value(0, 6)
-print(newDLL.get(0))
+newDLL.insert(3,99)
+print(newDLL.__str__())
+# print(newDLL.get(0))
 # print(newDLL.head.value)
 # print(newDLL.head.next.value)
 # print(newDLL.__str__())
