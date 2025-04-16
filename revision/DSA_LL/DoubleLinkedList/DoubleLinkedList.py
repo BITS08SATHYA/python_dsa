@@ -45,10 +45,17 @@ class DoubleLinkedList:
             temp_node = temp_node.next
         return result
 
+    def traverse(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.value)
+            current_node = current_node.next
+
 newDLL = DoubleLinkedList()
 newDLL.append(1)
 newDLL.append(2)
 newDLL.prepend(3)
+newDLL.traverse()
 # print(newDLL.head.value)
 # print(newDLL.head.next.value)
-print(newDLL.__str__())
+# print(newDLL.__str__())
