@@ -86,6 +86,17 @@ class CircularDoubleLL:
                 break
         return False
 
+    def get(self, index):
+        curr_node = None
+        if index < self.length // 2:
+            curr_node = self.head
+            for _ in range(index):
+                curr_node = curr_node.next
+        else:
+            curr_node = self.tail
+            for _ in range(self.length-1, index, -1):
+                curr_node = curr_node.prev
+        return curr_node
 
 
 
@@ -94,6 +105,7 @@ new_cdll = CircularDoubleLL()
 new_cdll.append(10)
 new_cdll.append(20)
 new_cdll.prepend(30)
+print(new_cdll.get(0))
 # print(new_cdll.__str__())
 # print(new_cdll.traverse())
 # print(new_cdll.reverse_traverse())
