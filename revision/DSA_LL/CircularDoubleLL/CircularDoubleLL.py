@@ -164,6 +164,11 @@ class CircularDoubleLL:
         self.length -= 1
         return popped_node
 
+    def delete_all(self):
+        self.head = None
+        self.tail = None
+        self.length = 0
+
 
 
 
