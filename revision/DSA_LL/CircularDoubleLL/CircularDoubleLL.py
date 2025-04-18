@@ -60,12 +60,23 @@ class CircularDoubleLL:
             self.head = new_node
         self.length += 1
 
+    def traverse(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.value)
+            current_node = current_node.next
+            if current_node == self.head:
+                break
+
+
 
 
 new_cdll = CircularDoubleLL()
 new_cdll.append(10)
 new_cdll.append(20)
 new_cdll.prepend(30)
-print(new_cdll.__str__())
+# print(new_cdll.__str__())
+print(new_cdll.traverse())
+
 # print(new_cdll.head.value)
 # print(new_cdll.head.next.value)
