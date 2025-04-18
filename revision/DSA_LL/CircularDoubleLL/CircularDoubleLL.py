@@ -149,6 +149,21 @@ class CircularDoubleLL:
         self.length -= 1
         return popped_node
 
+    def remove(self, index):
+        if index < 0 or index > self.length:
+            return None
+        if index == 0:
+            return self.pop_first()
+        if index == self.length-1:
+            return self.pop_last()
+        popped_node = self.get(index)
+        popped_node.prev.next = popped_node.next
+        popped_node.next.prev = popped_node.prev
+        popped_node.prev = None
+        popped_node.next = None
+        self.length -= 1
+        return popped_node
+
 
 
 
