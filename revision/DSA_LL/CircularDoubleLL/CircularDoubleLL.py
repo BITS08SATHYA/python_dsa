@@ -68,6 +68,14 @@ class CircularDoubleLL:
             if current_node == self.head:
                 break
 
+    def reverse_traverse(self):
+        curr_node = self.tail
+        while curr_node:
+            print(curr_node.value)
+            curr_node = curr_node.prev
+            if curr_node == self.tail:
+                break
+
 
 
 
@@ -76,7 +84,7 @@ new_cdll.append(10)
 new_cdll.append(20)
 new_cdll.prepend(30)
 # print(new_cdll.__str__())
-print(new_cdll.traverse())
-
+# print(new_cdll.traverse())
+# print(new_cdll.reverse_traverse())
 # print(new_cdll.head.value)
 # print(new_cdll.head.next.value)
