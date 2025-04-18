@@ -105,6 +105,24 @@ class CircularDoubleLL:
             return True
         return False
 
+    def insert(self, index, value):
+        if index < 0 or index > self.length:
+            print("Error: Index out of bounds")
+            return
+        if index == 0:
+            self.prepend(value)
+            return
+        if index == self.length:
+            self.append(value)
+            return
+        new_node = Node(value)
+        temp_node = self.get(index - 1)
+        new_node.next = temp_node.next
+        new_node.prev = temp_node
+        temp_node.next.prev = new_node
+        temp_node.next = new_node
+        self.length += 1
+
 
 
 
@@ -112,8 +130,9 @@ new_cdll = CircularDoubleLL()
 new_cdll.append(10)
 new_cdll.append(20)
 new_cdll.prepend(30)
-print(new_cdll.get(0))
-# print(new_cdll.__str__())
+new_cdll.insert(1,99)
+# print(new_cdll.get(0))
+print(new_cdll.__str__())
 # print(new_cdll.traverse())
 # print(new_cdll.reverse_traverse())
 # print(new_cdll.head.value)
