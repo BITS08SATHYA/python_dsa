@@ -136,6 +136,19 @@ class CircularDoubleLL:
         self.length -= 1
         return popped_node
 
+    def pop_last(self):
+        popped_node = self.tail
+        if self.length == 1:
+            self.head = self.tail = None
+            return popped_node
+        self.tail = self.tail.prev
+        popped_node.prev = None
+        popped_node.next = None
+        self.head.prev = self.tail
+        self.tail.next = self.head
+        self.length -= 1
+        return popped_node
+
 
 
 
