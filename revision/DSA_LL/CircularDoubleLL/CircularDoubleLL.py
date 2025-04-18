@@ -123,6 +123,19 @@ class CircularDoubleLL:
         temp_node.next = new_node
         self.length += 1
 
+    def pop_first(self):
+        popped_node = self.head
+        if self.length == 1:
+            self.head = self.tail = None
+            return popped_node
+        self.head = self.head.next
+        popped_node.prev = None
+        popped_node.next = None
+        self.head.prev = self.tail
+        self.tail.next = self.head
+        self.length -= 1
+        return popped_node
+
 
 
 
