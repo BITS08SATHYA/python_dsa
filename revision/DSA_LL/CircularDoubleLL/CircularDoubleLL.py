@@ -76,6 +76,17 @@ class CircularDoubleLL:
             if curr_node == self.tail:
                 break
 
+    def search(self, target):
+        curr_node = self.head
+        while curr_node:
+            if curr_node.value == target:
+                return True
+            curr_node = curr_node.next
+            if curr_node == self.head:
+                break
+        return False
+
+
 
 
 
