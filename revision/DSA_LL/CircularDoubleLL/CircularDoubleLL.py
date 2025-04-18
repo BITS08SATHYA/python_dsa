@@ -46,11 +46,26 @@ class CircularDoubleLL:
             result += ' <-> '
         return result
 
+    def prepend(self, value):
+        new_node = Node(value)
+        if self.length == 0:
+            new_node.prev = new_node
+            new_node.next = new_node
+            self.head = self.tail = new_node
+        else:
+            self.tail.next = new_node
+            self.head.prev = new_node
+            new_node.next = self.head
+            new_node.prev = self.tail
+            self.head = new_node
+        self.length += 1
+
 
 
 new_cdll = CircularDoubleLL()
 new_cdll.append(10)
 new_cdll.append(20)
+new_cdll.prepend(30)
 print(new_cdll.__str__())
 # print(new_cdll.head.value)
 # print(new_cdll.head.next.value)
