@@ -98,6 +98,13 @@ class CircularDoubleLL:
                 curr_node = curr_node.prev
         return curr_node
 
+    def set(self, index, value):
+        temp_node = self.get(index)
+        if temp_node:
+            temp_node.value = value
+            return True
+        return False
+
 
 
 
