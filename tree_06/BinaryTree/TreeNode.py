@@ -127,7 +127,11 @@ def deleteDeepestNode(rootNode, node):
         return "Failed to delete the node"
 
 
-
+def deleteBT(rootNode):
+    rootNode.data = None
+    rootNode.leftChild = None
+    rootNode.rightChild = None
+    return "The BT has been successfully deleted"
 
 
 # print('PreOrder Traversal')
@@ -157,8 +161,13 @@ def deleteDeepestNode(rootNode, node):
 # print(insertNodeBT(newBT, newNode))
 # levelOrderTraversal(newBT)
 
+# print('\n')
+# print('Deletion')
+# print('-----------------')
+# print(deleteDeepestNode(newBT, 'Hot'))
+# levelOrderTraversal(newBT)
+
 print('\n')
-print('Deletion')
+print('Deleting entire BT')
 print('-----------------')
-print(deleteDeepestNode(newBT, 'Hot'))
-levelOrderTraversal(newBT)
+print(deleteBT(newBT))

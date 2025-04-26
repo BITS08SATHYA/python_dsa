@@ -62,10 +62,10 @@ class Queue:
         self.LinkedList.head = self.LinkedList.tail = None
 
 
-custQueue = Queue()
-custQueue.enqueue(1)
-custQueue.enqueue(2)
-custQueue.enqueue(3)
-print(custQueue)
-custQueue.dequeue()
-print(custQueue)
+# custQueue = Queue()
+# custQueue.enqueue(1)
+# custQueue.enqueue(2)
+# custQueue.enqueue(3)
+# print(custQueue)
+# custQueue.dequeue()
+# print(custQueue)
