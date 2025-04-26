@@ -26,6 +26,13 @@ def inOrderTraversal(rootNode):
     print(rootNode.data)
     inOrderTraversal(rootNode.rightChild)
 
+def postOrderTraversal(rootNode):
+    if not rootNode:
+        return
+    postOrderTraversal(rootNode.leftChild)
+    postOrderTraversal(rootNode.rightChild)
+    print(rootNode.data)
+
 print('PreOrder Traversal')
 print('-----------------')
 preOrderTraversal(newBT)
@@ -33,3 +40,7 @@ print('\n')
 print('InOrder')
 print('-----------------')
 inOrderTraversal(newBT)
+print('\n')
+print('PostOrder')
+print('-----------------')
+postOrderTraversal(newBT)
