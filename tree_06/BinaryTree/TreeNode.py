@@ -1,4 +1,4 @@
-# import queue as q
+import queue
 from collections import deque as Queue
 
 class TreeNode:
@@ -54,6 +54,22 @@ def levelOrderTraversal(rootNode):
             if root.rightChild is not None:
                 customQueue.append(root.rightChild)
 
+def searchBT(rootNode, nodeValue):
+    if not rootNode:
+        return "The BT does not exist"
+    else:
+        customQueue = queue.Queue()
+        customQueue.put(rootNode)
+        while not (customQueue.empty()):
+            root = customQueue.get()
+            if root.data == nodeValue:
+                return "Success"
+            if root.leftChild is not None:
+                customQueue.put(root.leftChild)
+            if root.rightChild is not None:
+                customQueue.put(root.rightChild)
+        return "Failure"
+
 print('PreOrder Traversal')
 print('-----------------')
 preOrderTraversal(newBT)
@@ -69,3 +85,7 @@ print('\n')
 print('LevelOrder')
 print('-----------------')
 levelOrderTraversal(newBT)
+print('\n')
+print('Search')
+print('-----------------')
+print(searchBT(newBT, "Tea1"))
