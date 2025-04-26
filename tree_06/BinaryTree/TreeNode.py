@@ -1,3 +1,6 @@
+# import queue as q
+from collections import deque as Queue
+
 class TreeNode:
     def __init__(self, data):
         self.data = data
@@ -7,6 +10,10 @@ class TreeNode:
 newBT = TreeNode("Drinks")
 # print(newBT.data)
 leftChild = TreeNode("Hot")
+tea = TreeNode("Tea")
+coffee = TreeNode("Coffee")
+leftChild.leftChild = tea
+leftChild.rightChild = coffee
 rightChild = TreeNode("Cold")
 newBT.leftChild = leftChild
 newBT.rightChild = rightChild
@@ -33,6 +40,20 @@ def postOrderTraversal(rootNode):
     postOrderTraversal(rootNode.rightChild)
     print(rootNode.data)
 
+def levelOrderTraversal(rootNode):
+    if not rootNode:
+        return
+    else:
+        customQueue = Queue()
+        customQueue.append(rootNode)
+        while not(len(customQueue) == 0):
+            root = customQueue.popleft()
+            print(root.data)
+            if root.leftChild is not None:
+                customQueue.append(root.leftChild)
+            if root.rightChild is not None:
+                customQueue.append(root.rightChild)
+
 print('PreOrder Traversal')
 print('-----------------')
 preOrderTraversal(newBT)
@@ -44,3 +65,7 @@ print('\n')
 print('PostOrder')
 print('-----------------')
 postOrderTraversal(newBT)
+print('\n')
+print('LevelOrder')
+print('-----------------')
+levelOrderTraversal(newBT)
