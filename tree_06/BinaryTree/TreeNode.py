@@ -1,5 +1,4 @@
-import queue
-from collections import deque as Queue
+from queue_03.queue.Queue_LL import Queue as Queue
 
 class TreeNode:
     def __init__(self, data):
@@ -17,6 +16,7 @@ leftChild.rightChild = coffee
 rightChild = TreeNode("Cold")
 newBT.leftChild = leftChild
 newBT.rightChild = rightChild
+
 
 def preOrderTraversal(rootNode):
     if not rootNode:
@@ -45,30 +45,52 @@ def levelOrderTraversal(rootNode):
         return
     else:
         customQueue = Queue()
-        customQueue.append(rootNode)
-        while not(len(customQueue) == 0):
-            root = customQueue.popleft()
-            print(root.data)
-            if root.leftChild is not None:
-                customQueue.append(root.leftChild)
-            if root.rightChild is not None:
-                customQueue.append(root.rightChild)
+        customQueue.enqueue(rootNode)
+        while not(customQueue.isEmpty()):
+            root = customQueue.dequeue()
+            print(root.value.data)
+            if root.value.leftChild is not None:
+                customQueue.enqueue(root.value.leftChild)
+            if root.value.rightChild is not None:
+                customQueue.enqueue(root.value.rightChild)
 
 def searchBT(rootNode, nodeValue):
     if not rootNode:
         return "The BT does not exist"
     else:
-        customQueue = queue.Queue()
-        customQueue.put(rootNode)
-        while not (customQueue.empty()):
-            root = customQueue.get()
-            if root.data == nodeValue:
+        customQueue = Queue()
+        customQueue.enqueue(rootNode)
+        while not (customQueue.isEmpty()):
+            root = customQueue.dequeue()
+            if root.value.data == nodeValue:
                 return "Success"
-            if root.leftChild is not None:
-                customQueue.put(root.leftChild)
-            if root.rightChild is not None:
-                customQueue.put(root.rightChild)
+            if root.value.leftChild is not None:
+                customQueue.enqueue(root.value.leftChild)
+            if root.value.rightChild is not None:
+                customQueue.enqueue(root.value.rightChild)
         return "Failure"
+
+def insertNodeBT(rootNode, newNode):
+    if not rootNode:
+        rootNode = newNode
+        return None
+    else:
+        customQueue = Queue()
+        customQueue.enqueue(rootNode)
+        while not (customQueue.isEmpty()):
+            root = customQueue.dequeue()
+            if root.value.leftChild is not None:
+                customQueue.enqueue(root.value.leftChild)
+            else:
+                root.value.leftChild = newNode
+                return "Successfully inserted"
+            if root.value.rightChild is not None:
+                customQueue.enqueue(root.value.rightChild)
+            else:
+                root.value.rightChild = newNode
+                return "Successfully inserted"
+        return "Insertion Failed"
+
 
 print('PreOrder Traversal')
 print('-----------------')
@@ -89,3 +111,11 @@ print('\n')
 print('Search')
 print('-----------------')
 print(searchBT(newBT, "Tea1"))
+
+print('\n')
+print('Insertion')
+print('-----------------')
+newNode = TreeNode("Pepsi")
+print(insertNodeBT(newBT, newNode))
+levelOrderTraversal(newBT)
+
