@@ -91,31 +91,74 @@ def insertNodeBT(rootNode, newNode):
                 return "Successfully inserted"
         return "Insertion Failed"
 
+def getDeepestNode(rootNode):
+    if not rootNode:
+        return
+    else:
+        customQueue = Queue()
+        customQueue.enqueue(rootNode)
+        while not (customQueue.isEmpty()):
+            root = customQueue.dequeue()
+            if root.value.leftChild is not None:
+                customQueue.enqueue(root.value.leftChild)
+            if root.value.rightChild is not None:
+                customQueue.enqueue(root.value.rightChild)
+        deepestNode = root.value
+        return deepestNode
 
-print('PreOrder Traversal')
-print('-----------------')
-preOrderTraversal(newBT)
+def deleteDeepestNode(rootNode, node):
+    if not rootNode:
+        return "The BT does not exist"
+    else:
+        customQueue = Queue()
+        customQueue.enqueue(rootNode)
+        while not (customQueue.isEmpty()):
+            root = customQueue.dequeue()
+            if root.value.data == node:
+                dNode = getDeepestNode(rootNode)
+                root.value.data = dNode.data
+                deleteDeepestNode(rootNode, dNode)
+                return "The node has been successfully deleted"
+            if (root.value.leftChild is not None):
+                customQueue.enqueue(root.value.leftChild)
+
+            if (root.value.rightChild is not None):
+                customQueue.enqueue(root.value.rightChild)
+        return "Failed to delete the node"
+
+
+
+
+
+# print('PreOrder Traversal')
+# print('-----------------')
+# preOrderTraversal(newBT)
+# print('\n')
+# print('InOrder')
+# print('-----------------')
+# inOrderTraversal(newBT)
+# print('\n')
+# print('PostOrder')
+# print('-----------------')
+# postOrderTraversal(newBT)
+# print('\n')
+# print('LevelOrder')
+# print('-----------------')
+# levelOrderTraversal(newBT)
+# print('\n')
+# print('Search')
+# print('-----------------')
+# print(searchBT(newBT, "Tea1"))
+#
+# print('\n')
+# print('Insertion')
+# print('-----------------')
+# newNode = TreeNode("Pepsi")
+# print(insertNodeBT(newBT, newNode))
+# levelOrderTraversal(newBT)
+
 print('\n')
-print('InOrder')
+print('Deletion')
 print('-----------------')
-inOrderTraversal(newBT)
-print('\n')
-print('PostOrder')
-print('-----------------')
-postOrderTraversal(newBT)
-print('\n')
-print('LevelOrder')
-print('-----------------')
+print(deleteDeepestNode(newBT, 'Hot'))
 levelOrderTraversal(newBT)
-print('\n')
-print('Search')
-print('-----------------')
-print(searchBT(newBT, "Tea1"))
-
-print('\n')
-print('Insertion')
-print('-----------------')
-newNode = TreeNode("Pepsi")
-print(insertNodeBT(newBT, newNode))
-levelOrderTraversal(newBT)
-
