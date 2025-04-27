@@ -53,6 +53,10 @@ class BinaryTree:
                 return "The node has been deleted"
         return "Not Found"
 
+    def deleteBT(self):
+        self.customList = None
+        return "The binary tree has been deleted"
+
 
 newBT = BinaryTree(8)
 newBT.insertNode("Drinks")
