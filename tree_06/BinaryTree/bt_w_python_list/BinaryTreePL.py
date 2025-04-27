@@ -42,6 +42,18 @@ class BinaryTree:
         for i in range(index, self.lastUsedIndex+1):
             print(self.customList[i])
 
+    def deleteNode(self, value):
+        if self.lastUsedIndex == 0:
+            return "There is not any node to delete"
+        for i in range(1, self.lastUsedIndex+1):
+            if self.customList[i] == value:
+                self.customList[i] = self.customList[self.lastUsedIndex]
+                self.customList[self.lastUsedIndex] = None
+                self.lastUsedIndex -= 1
+                return "The node has been deleted"
+        return "Not Found"
+
+
 newBT = BinaryTree(8)
 newBT.insertNode("Drinks")
 newBT.insertNode("Hot")
@@ -50,20 +62,24 @@ newBT.insertNode("Tea")
 newBT.insertNode("Coffee")
 # print(newBT.searchNode("Hot"))
 
-# PreOrder Traversal
-# Root Node --> Left Subtree --> Right Subtree
-print("PreOrder Traversal")
-newBT.preOrderTraversal(1)
+# # PreOrder Traversal
+# # Root Node --> Left Subtree --> Right Subtree
+# print("PreOrder Traversal")
+# newBT.preOrderTraversal(1)
+#
+# # InOrder Traversal
+# # Left Subtree --> Root Node --> Right Subtree
+# print("InOrder Traversal")
+# newBT.inOrderTraversal(1)
+# # Post Traversal
+# # Left Subtree --> Right Subtree --> Root node
+# print("PostOrder Traversal")
+# newBT.postOrderTraversal(1)
+#
+# # Level Order traversal
+# print("Level Order Traversal")
+# newBT.levelOrderTraversal(1)
 
-# InOrder Traversal
-# Left Subtree --> Root Node --> Right Subtree
-print("InOrder Traversal")
-newBT.inOrderTraversal(1)
-# Post Traversal
-# Left Subtree --> Right Subtree --> Root node
-print("PostOrder Traversal")
-newBT.postOrderTraversal(1)
-
-# Level Order traversal
+print(newBT.deleteNode("Tea"))
 print("Level Order Traversal")
 newBT.levelOrderTraversal(1)
