@@ -100,6 +100,11 @@ def deleteNode(rootNode, nodeValue):
         rootNode.rightChild = deleteNode(rootNode.rightChild, temp.data)
     return rootNode
 
+def deleteBST(rootNode):
+    rootNode = None
+    rootNode.leftChild = None
+    rootNode.rightChild = None
+    return "The BST has been deleted"
 
 newBST = BSTNode(None)
 insertNode(newBST, 40)
