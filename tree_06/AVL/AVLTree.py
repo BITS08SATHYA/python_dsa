@@ -44,4 +44,6 @@ def levelOrderTraversal(rootNode):
 
 newAVL = AVLNode(10)
 
+# this is the cooment
+
 preOrderTraversal(newAVL)
