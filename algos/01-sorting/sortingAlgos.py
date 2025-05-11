@@ -37,7 +37,7 @@ def insertionSort(customList):
         customList[j + 1] = key
     return customList
 
-insertionSort(cList)
+# insertionSort(cList)
 
 
 # Bucket Sort
@@ -104,4 +104,63 @@ def mergeSort(customList, l, r):
         merge(customList, l, m, r)
     return customList
 
-print(mergeSort(cList, 0, 8))
+# print(mergeSort(cList, 0, 8))
+
+
+def swap(mylist, index1, index2):
+    mylist[index1], mylist[index2] = mylist[index2], mylist[index1]
+
+def pivot(mylist, pivot_index, end_index):
+    swap_index = pivot_index
+    for i in range(pivot_index+1, end_index+1):
+        if mylist[i] < mylist[pivot_index]:
+            swap_index += 1
+            swap(mylist, swap_index, i)
+    swap(mylist, pivot_index, swap_index)
+    return swap_index
+
+mylist = [2, 1, 4, 5, 7, 8, 4, 3, 1]
+# print(pivot(mylist, 0, 8))
+# print(mylist)
+
+
+def quicksort_helper(my_list, left, right):
+    if left < right:
+        pivot_index = pivot(my_list, left, right)
+        quicksort_helper(my_list, left, pivot_index - 1)
+        quicksort_helper(my_list, pivot_index + 1, right)
+    return my_list
+
+def quicksort(my_list):
+    return quicksort_helper(my_list, 0, len(my_list) - 1)
+
+
+# print(quicksort(mylist))
+
+# Time complexity O(NLogN)
+# HeapSort
+def heapify(mylist, n, i):
+    smallest = i
+    l = 2 * i + 1
+    r = 2 * i + 2
+    if l < n and mylist[l] < mylist[smallest]:
+        smallest = l
+    if r < n and mylist[r] < mylist[smallest]:
+        smallest = r
+    if smallest != i:
+        mylist[i], mylist[smallest] = mylist[smallest], mylist[i]
+        heapify(mylist, n, smallest)
+
+def heapsort(customList):
+    n = len(customList)
+    for i in range(int(n/2)-1, -1, -1):
+        heapify(customList, n, i)
+    for i in range(n-1,0,-1):
+        customList[i], customList[0] = customList[0], customList[i]
+        heapify(customList, i, 0)
+
+chList = [2,1,7,6,5,3,4,9,8]
+heapsort(chList)
+print(chList)
+
+
