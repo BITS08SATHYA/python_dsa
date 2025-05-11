@@ -1,7 +1,7 @@
 cList = [2,1,4,5,7,8,4,3,1]
 
 
-
+# Time Complexity - O(n^2)
 def bubbleSort(customList):
     for i in range(len(customList) - 1):
         for j in range(len(customList) - i - 1):
@@ -11,6 +11,7 @@ def bubbleSort(customList):
 
 # bubbleSort(customList)
 
+# Time Complexity - O(n^2)
 def selectionSort(customList):
     for i in range(len(customList)):
         min_index = i
