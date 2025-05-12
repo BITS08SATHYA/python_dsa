@@ -15,6 +15,16 @@ class Graph:
             return True
         return False
 
+    def remove_edge(self, vertex1, vertex2):
+        if vertex1 in self.adjacency_list.keys() and vertex2 in self.adjacency_list.keys():
+            try:
+                self.adjacency_list[vertex1].remove(vertex2)
+                self.adjacency_list[vertex2].remove(vertex1)
+            except ValueError:
+                pass
+            return True
+        return False
+
     def print_graph(self):
         for vertex in self.adjacency_list.keys():
             print(vertex, ":", self.adjacency_list[vertex])
@@ -23,6 +33,11 @@ class Graph:
 custom_graph = Graph()
 custom_graph.add_vertex("A")
 custom_graph.add_vertex("B")
+custom_graph.add_vertex("C")
 custom_graph.add_Edge("A", "B")
-# custom_graph.add_vertex("C")
+custom_graph.add_Edge("A", "C")
+custom_graph.add_Edge("B", "C")
+custom_graph.print_graph()
+custom_graph.remove_edge("A", "C")
+print("Print after remove edge")
 custom_graph.print_graph()
