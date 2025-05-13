@@ -54,7 +54,8 @@ class Graph:
                 print(current_vertex)
                 visited.add(current_vertex)
                 for adjacent_vertex in self.adjacency_list[current_vertex]:
-                    pass
+                    if adjacent_vertex not in visited:
+                        stack.append(adjacent_vertex)
 
 
     def print_graph(self):
